@@ -11,7 +11,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
+#
 data_to_replicate:
 {% if sql_flavour.upper() == 'S4' %}
   - base_table: matdoc
